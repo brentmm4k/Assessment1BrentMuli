@@ -1,5 +1,7 @@
 word1 = 'Coding'
-word2 = 'is'
+word2 = 'Is'
 word3 = 'Cool'
 
 print(word1,word2,word3)
+
+#Prints the 3 variables "word1", "word2", and "word3" in order.
