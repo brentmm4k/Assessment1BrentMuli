@@ -1,9 +1,11 @@
 
 def hello():
-    print('Hello')  # Fill in this blank to print "Hello" to the console
+    print('Hello')
 
 def main():
-    hello()  # Fill in this blank to call the hello() function
+    hello()
 
 if __name__ == "__main__":
     main()
+
+# Calls the hello() function to print "Hello" in the console

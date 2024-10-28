@@ -26,7 +26,7 @@ if number == 2:
     else:
         print('Please enter yes or no')
 
-# Asks if it is a leap year, if yes, the days of Febuary is now 29.
+# If the month inputted is "2" it asks if it is a leap year, if yes, the days of Febuary is changed to 29.
 
 if number in months: 
     print(f'The number of days in the month of {number} is {months[number]}')

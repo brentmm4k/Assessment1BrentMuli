@@ -27,3 +27,5 @@ while loop5 <= 200:
     loop5 += 5
     print(loop5)
     if loop5 == 200: break
+
+# Loops until a specific number, in order for the loop to not exceed the end number, which is the use for "break".
