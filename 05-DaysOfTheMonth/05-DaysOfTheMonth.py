@@ -19,13 +19,16 @@ number = int(input('Please enter the month: '))
 
 if number == 2:
     leap = input('Is it a leap year? yes or no. ').lower() 
-    if leap == 'yes': 
-        months[2] = 29
-    elif leap == 'no':
-        months[2] = 28
-    else:
-        print('Please enter yes or no')
-
+    while True:
+        if leap == 'yes': 
+            months[2] = 29
+            break
+        elif leap == 'no':
+            months[2] = 28
+            break
+        else: 
+            leap = input('Is it a leap year? yes or no. ').lower()
+    
 # If the month inputted is "2" it asks if it is a leap year, if yes, the days of Febuary is changed to 29.
 
 if number in months: 
